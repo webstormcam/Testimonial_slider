@@ -4,4 +4,34 @@
 
 html,body{
     font-family: 'Inter', sans-serif;
+
+}
+
+
+#content{
+    display: flex;
+   justify-content: center;
+    width: 100%;
+}
+
+#card{
+    width: 327px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url('imgs/pattern-bg.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 1rem;
+}
+
+
+.person{
+    width: 240px;
+    margin-top: 1.5rem;
+}
+
+.imgbutton{
+    
+    
 }
