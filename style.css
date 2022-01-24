@@ -35,19 +35,29 @@ html,body{
 
 .person{
     width: 240px;
-    margin-top: 1.5rem;
+    margin-top: 2rem;
     border-radius: 1rem;
 }
 
 .button{
     display: flex;
     flex-direction: row;
-    width: 100%;
-    justify-content: space-around;
+
+    justify-content: space-between;
     background-color: #fff;
-    border-radius: 1rem;
-    width: 80px;
-    padding: 1rem;
+    border-radius: 2rem;
+    width: 90px;
     position: relative;
-    top: -3rem;
+    top: -2rem;
+}
+
+.arrow{
+    width: 10px;
+}
+
+.divide{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
 }
