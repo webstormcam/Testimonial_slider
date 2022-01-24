@@ -29,9 +29,12 @@ html,body{
 .person{
     width: 240px;
     margin-top: 1.5rem;
+    border-radius: 1rem;
 }
 
-.imgbutton{
-    
-    
+.button{
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+   width: 80px;
 }
