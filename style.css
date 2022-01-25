@@ -2,8 +2,10 @@
     box-sizing: border-box;
 }
 
-html,body{
+body{
     font-family: 'Inter', sans-serif;
+    display: flex;
+    flex-direction: column;
 
 }
 
@@ -67,4 +69,23 @@ html,body{
 .word_section{
 width: 340px;
 text-align: center;
+margin-top: 2rem;
+
+}
+
+#quote{
+    font-size: 20px;
+    line-height: 1.5rem;
+    color: #202047;
+ font-weight: lighter;
+}
+
+#name{
+    font-weight: bold;
+    margin-top: 2rem;
+    margin-bottom: 0.3rem;
+}
+
+#role{
+    color: #B9B9CE;
 }
