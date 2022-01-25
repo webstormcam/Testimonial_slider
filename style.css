@@ -15,7 +15,7 @@ html,body{
 }
 
 #card{
-    width: 327px;
+    width: 340px;
     display: flex;
     flex-direction: column;
     align-items: center;
