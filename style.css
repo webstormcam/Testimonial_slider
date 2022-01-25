@@ -10,7 +10,8 @@ html,body{
 
 #content{
     display: flex;
-   justify-content: center;
+   align-items: center;
+   flex-direction: column;
     width: 100%;
 }
 
@@ -37,6 +38,7 @@ html,body{
     width: 240px;
     margin-top: 2rem;
     border-radius: 1rem;
+  
 }
 
 .button{
@@ -60,4 +62,9 @@ html,body{
     display: flex;
     justify-content: center;
     padding: 1rem;
+}
+
+.word_section{
+width: 340px;
+text-align: center;
 }
