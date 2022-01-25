@@ -33,7 +33,7 @@ html,body{
 }
 
 
-.person{
+#person{
     width: 240px;
     margin-top: 2rem;
     border-radius: 1rem;
