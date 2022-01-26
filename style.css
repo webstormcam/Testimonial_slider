@@ -9,6 +9,7 @@ html,body{
     background-image: url('imgs/pattern-curve.svg');
     background-repeat: no-repeat;
    background-position: bottom;
+   background-size: contain;
    width: 100%;
    height: 100%;
     
@@ -104,3 +105,4 @@ position: relative;
     top: -1.5rem;
     left: 9rem;
 }
+
