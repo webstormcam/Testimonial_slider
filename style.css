@@ -112,9 +112,14 @@ position: relative;
     left: 9rem;
 }
 
+.end{
+    display: none;
+}
+
 @media screen and (min-width:768px) {
     body{
         background-image: none;
+        position: relative;
     }
     #content{
         flex-direction: row;
@@ -134,5 +139,12 @@ position: relative;
         text-align: left;
       
         
+        }
+
+        .end{
+            position: absolute;
+            display: block;
+            bottom: 0rem;
+            left: 0rem;
         }
 }
