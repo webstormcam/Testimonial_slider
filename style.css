@@ -116,23 +116,40 @@ position: relative;
     display: none;
 }
 
-@media screen and (min-width:768px) {
+@media screen and (min-width:1440px) {
     body{
         background-image: none;
         position: relative;
+        display: flex;
+        align-items: center;
     }
     #content{
         flex-direction: row;
         width: 100%;
         height: 100%;
+        max-width: 1440px;
         align-items: center;
-        justify-content: center;
+        justify-content: space-around;
       
 
     }
 
+    #person{
+        margin-top: 0rem;
+        width: 540px;
+        
+      
+    }
+
     #card{
         order: 5;
+        width: 700px;
+        height: 700px;
+        background-size: auto;
+    }
+
+    .imgbutton{
+        margin-top: 4rem;
     }
 
     .word_section{
