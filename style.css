@@ -74,11 +74,16 @@ body{
     width: 10px;
 }
 
+
 .divide{
     width: 50%;
     display: flex;
     justify-content: center;
     padding: 1rem;
+}
+
+.divide:hover{
+    cursor: pointer;
 }
 
 .word_section{
@@ -124,11 +129,19 @@ position: relative;
 
 
 @media screen and (min-width:768px){
+    body{
+        background-image: none;
+        position: relative;
+        display: flex;
+        align-items: center;
+    }
+    
+    
     #content{
         flex-direction: row;
         width: 100%;
         height: 100%;
-        max-width: 1440px;
+        max-width: 782px;
         align-items: center;
         justify-content: space-around;
         position: relative;
@@ -143,15 +156,40 @@ position: relative;
         background-size: contain;
         
     }
+
+    #person{
+        width: 300px;
+        margin-top: 2rem;
+    }
+
+    .word_section{
+        text-align: left;
+        width: 400px;
+        position: relative;
+        left: 4.5rem;
+     
+ }
+
+ .rank-role{
+           
+    flex-direction: row;
+    align-items: baseline;
+}
+
+#name{
+    margin-right: 1rem;
+}
+
+.end{
+    position: absolute;
+    display: block;
+    bottom: 0rem;
+    left: 0rem;
+}
 }
 
 @media screen and (min-width:1440px) {
-    body{
-        background-image: none;
-        position: relative;
-        display: flex;
-        align-items: center;
-    }
+
     #content{
         flex-direction: row;
         width: 100%;
@@ -200,22 +238,7 @@ position: relative;
           
         }
 
-        .end{
-            position: absolute;
-            display: block;
-            bottom: 0rem;
-            left: 0rem;
-        }
 
-        .rank-role{
-           
-            flex-direction: row;
-            align-items: baseline;
-        }
-
-        #name{
-            margin-right: 1rem;
-        }
 
         .rank-role p{
             font-size: 20px;
