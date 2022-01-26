@@ -2,7 +2,13 @@
     box-sizing: border-box;
 }
 
-html,body{
+
+html{
+    width: 100%;
+    height: 100%;
+}
+
+body{
     font-family: 'Inter', sans-serif;
     display: flex;
     flex-direction: column;
@@ -107,13 +113,16 @@ position: relative;
 }
 
 @media screen and (min-width:768px) {
+    body{
+        background-image: none;
+    }
     #content{
         flex-direction: row;
         width: 100%;
         height: 100%;
         align-items: center;
         justify-content: center;
-        background-size: contain;
+      
 
     }
 
