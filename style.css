@@ -2,11 +2,15 @@
     box-sizing: border-box;
 }
 
-body{
+html,body{
     font-family: 'Inter', sans-serif;
     display: flex;
     flex-direction: column;
-    /* background-image: url('imgs/pattern-curve.svg'); */
+    background-image: url('imgs/pattern-curve.svg');
+    background-repeat: no-repeat;
+   background-position: bottom;
+   width: 100%;
+   height: 100%;
     
 
 }
@@ -17,6 +21,7 @@ body{
    align-items: center;
    flex-direction: column;
     width: 100%;
+   
 }
 
 #card{
