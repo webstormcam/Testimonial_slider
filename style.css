@@ -271,7 +271,7 @@ position: relative;
 
         #quote{
             font-size: 32px;
-            line-height: 2.5rem;
+            line-height: 2.9rem;
           
         }
 
@@ -285,6 +285,6 @@ position: relative;
             width: auto;
             position: absolute;
             top: -4rem;
-            left: 9rem;
+            left: 6rem;
         }
 }
