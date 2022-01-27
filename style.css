@@ -188,6 +188,43 @@ position: relative;
 }
 }
 
+@media screen and (min-width:1024px){
+    #person{
+        width: 400px;
+        margin-top: 3rem;
+    }
+
+
+    #card{
+        order: 5;
+        width: 650px;
+        
+        
+    }
+
+    .word_section{
+        text-align: left;
+        width: 500px;
+        position: relative;
+        left: 8rem;
+     
+ }
+
+ #quote{
+    font-size: 25px;
+    line-height: 1.8rem;
+  
+  
+}
+
+ #content{
+ 
+    max-width: 1024px;
+  
+
+}
+}
+
 @media screen and (min-width:1440px) {
 
     #content{
